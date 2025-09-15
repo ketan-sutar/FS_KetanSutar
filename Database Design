@@ -1,0 +1,14 @@
+User {
+  "id": "uuid",
+  "username": "Rider_1234",
+  "home": { "type": "Point", "coordinates": [lng, lat] },
+  "destination": { "type": "Point", "coordinates": [lng, lat] },
+  "route": [ [lng1, lat1], [lng2, lat2], ... ]
+}
+
+Chat {
+  "chat_id": "hash(student1, student2)",
+  "messages": [
+    { "sender": "Rider_1234", "text": "Hello!", "time": "2025-09-15T12:00" }
+  ]
+}
