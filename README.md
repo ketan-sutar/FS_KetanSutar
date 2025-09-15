@@ -30,4 +30,13 @@ Authentication: Minimal – generate UUID Rider ID, no password required.
 Performance: Use clustering & reduce polyline points for smooth map rendering.
 
 
+
+
+
+
 2. Backend:
+
+## System Architecture Diagram
+You can view the frontend and backend architecture diagram here:  
+[Frontend + Backend System Architecture](https://app.eraser.io/workspace/BFYdl3jsqCY9F6aoewba?elements=cwBo9byY9_j93arIh3eMHA)
+
