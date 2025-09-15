@@ -38,6 +38,6 @@ Performance: Use clustering & reduce polyline points for smooth map rendering.
 
 ## System Architecture Diagram
 You can view the frontend and backend architecture diagram here:  
-![Frontend + Backend Architecture](https://github.com/user-attachments/assets/c8ca222f-f38c-4ea5-93a1-bbbe5cd78c67)
+![Frontend + Backend Architecture](<img width="2450" height="1213" alt="image" src="https://github.com/user-attachments/assets/7dcac3c6-696c-43d8-bb4a-9647a2fa4b61" />)
 
 
