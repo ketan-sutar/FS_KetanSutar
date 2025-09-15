@@ -1,0 +1,10 @@
+ON click_student_icon(student_username):
+    # Open chat window UI
+    open_chat_window(student_username)
+    
+    # Initialize real-time chat using WebSocket or Firebase
+    initialize_chat_session(username, student_username)
+    
+    # Load chat history from database if exists
+    messages = fetch_chat_history(username, student_username)
+    display_messages(messages)
