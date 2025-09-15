@@ -1,0 +1,3 @@
+FUNCTION generate_username():
+    uuid = UUID4()
+    RETURN "Rider_" + uuid[:6]
