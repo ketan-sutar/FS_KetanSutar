@@ -1,0 +1,9 @@
+ON enter_route(home_location, destination_location):
+    # Fetch route polyline from Maps API
+    route = get_polyline(home_location, destination_location)
+    
+    # Display the route on the map interface
+    display_route_on_map(route)
+    
+    # Optionally, send route data to backend for matching
+    send_route_to_backend(username, route)
