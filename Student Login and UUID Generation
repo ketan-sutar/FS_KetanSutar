@@ -1,0 +1,10 @@
+# When the student opens the app for the first time
+ON student_login():
+    # Generate a unique anonymous username
+    username = generate_RiderID()  # Example: Rider_4589
+    
+    # Store locally for session persistence OR in the database
+    store_locally_or_DB(username)
+    
+    # Display welcome message or proceed to map page
+    display_message("Welcome " + username)
