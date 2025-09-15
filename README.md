@@ -8,14 +8,14 @@ Problem Definition:-
 - The Student Commute Optimizer provides a safe, anonymous, and efficient carpool/ride-sharing platform to connect students traveling along similar routes.
 
 Solution:-
-1. Frontend:
-Students commute individually → inefficient. The frontend should:
-Take home → destination input
-Show nearby students on overlapping routes
-Keep users anonymous
-Allow private chat
+# 1. Frontend:
+⋅⋅⋅⋅* Students commute individually → inefficient. The frontend should:
+⋅⋅⋅⋅* Take home → destination input
+⋅⋅⋅⋅* Show nearby students on overlapping routes
+⋅⋅⋅⋅* Keep users anonymous
+⋅⋅⋅⋅* Allow private chat
 
-⋅⋅⋅⋅*Components or Core Feature: 
+## Components or Core Feature: 
 
 Map UI: Enter home → destination; display route (polyline) using Google Maps or Leaflet. Optimize with tile rendering & simplified polylines.
 
