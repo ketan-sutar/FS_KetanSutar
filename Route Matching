@@ -1,0 +1,12 @@
+FUNCTION find_matches(student):
+    student_route = get_route(student.home, student.destination)
+    matches = []
+    
+    FOR other_student IN database:
+        IF other_student.id == student.id:
+            CONTINUE
+        overlap = calculate_route_overlap(student_route, other_student.route)
+        IF overlap >= 60%:
+            matches.append(other_student.username)
+    
+    RETURN matches
