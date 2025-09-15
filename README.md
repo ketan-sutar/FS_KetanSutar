@@ -36,8 +36,9 @@ Performance: Use clustering & reduce polyline points for smooth map rendering.
 
 2. Backend:
 
-## System Architecture Diagram
-You can view the frontend and backend architecture diagram here:  
-![Frontend + Backend Architecture](<img width="2450" height="1213" alt="image" src="https://github.com/user-attachments/assets/7dcac3c6-696c-43d8-bb4a-9647a2fa4b61" />)
+#### System Architecture Diagram
 
+![Frontend + Backend Architecture](https://github.com/user-attachments/assets/7dcac3c6-696c-43d8-bb4a-9647a2fa4b61)
 
+You can also view it interactively on Erase.io:  
+[Frontend + Backend Architecture Diagram](https://app.eraser.io/workspace/BFYdl3jsqCY9F6aoewba?elements=cwBo9byY9_j93arIh3eMHA)
