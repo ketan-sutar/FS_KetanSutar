@@ -1,0 +1,7 @@
+ON connect(student):
+    join_room(student.username)
+
+ON send_message(sender, receiver, text):
+    chat_id = generate_chat_id(sender, receiver)
+    save_message(chat_id, sender, text, timestamp)
+    deliver_message_to(receiver, text)
