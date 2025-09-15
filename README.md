@@ -9,7 +9,7 @@ Problem Definition:-
 
 Solution:-
 # 1. Frontend:
-⋅⋅⋅⋅* Students commute individually → inefficient. The frontend should:
+-- The frontend should:
 ⋅⋅⋅⋅* Take home → destination input
 ⋅⋅⋅⋅* Show nearby students on overlapping routes
 ⋅⋅⋅⋅* Keep users anonymous
