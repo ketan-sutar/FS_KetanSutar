@@ -1,0 +1,11 @@
+ON map_render():
+    # Fetch students with overlapping or nearby routes
+    nearby_students = fetch_students_with_overlap(route)
+    
+    # Loop through each nearby student
+    FOR each student IN nearby_students:
+        # Display icon on map for each student
+        show_icon(student.username, student.current_location)
+        
+        # Make the icon clickable for chat
+        make_icon_clickable(student.username)
