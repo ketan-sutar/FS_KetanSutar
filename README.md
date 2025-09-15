@@ -62,7 +62,21 @@ The backend handles:
    [Link](https://github.com/ketan-sutar/FS_KetanSutar/blob/main/Route%20Matching)
 
 ---
+## Technology Stack
 
+| Layer          | Technology                                         | Purpose                                                   |
+| -------------- | -------------------------------------------------- | --------------------------------------------------------- |
+| **Frontend**   | React.js                                           | Component-based UI, fast rendering                        |
+| **Styling**    | Tailwind CSS                                       | Clean, responsive design                                  |
+| **Maps & Routing** | Google Maps API / Leaflet + OpenStreetMap       | Route drawing & nearby student visualization              |
+| **Backend**    | Node.js / FastAPI                                  | API endpoints, route matching, chat handling              |
+| **Realtime Chat** | Firebase Realtime DB / WebSocket (Socket.IO)    | Real-time messaging between anonymous users               |
+| **Database**   | MongoDB / PostGIS                                  | User, route, and chat data storage; Geo-spatial queries   |
+| **Authentication** | UUID Generator                                 | Anonymous login / unique Rider IDs                        |
+| **Deployment** | Vercel / Netlify (frontend), Heroku / Render (backend) | Hosting frontend and backend services                 |
+
+
+---
 ### System Architecture Diagram
 
 ![Frontend + Backend Architecture](https://github.com/user-attachments/assets/7dcac3c6-696c-43d8-bb4a-9647a2fa4b61)
