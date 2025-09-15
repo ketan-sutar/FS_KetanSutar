@@ -1,0 +1,5 @@
+GET /students          → Fetch all students
+POST /route            → Submit student route
+GET /matches/:studentId → Get route matches
+POST /chat             → Send chat message
+GET /chat/:chatId      → Get chat history
