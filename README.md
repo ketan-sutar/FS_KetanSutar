@@ -9,21 +9,15 @@ Problem Definition:-
 
 Solution:-
 # 1. Frontend:
--- The frontend should:
-⋅⋅⋅⋅* Take home → destination input
-⋅⋅⋅⋅* Show nearby students on overlapping routes
-⋅⋅⋅⋅* Keep users anonymous
-⋅⋅⋅⋅* Allow private chat
+Frontend (React – Student Facing)
 
-## Components or Core Feature: 
+Map UI: Enter home + school → draw route (Google Maps API / Leaflet + OpenStreetMap)
 
-Map UI: Enter home → destination; display route (polyline) using Google Maps or Leaflet. Optimize with tile rendering & simplified polylines.
+Nearby Students: Display icons of overlapping routes
 
-Nearby Students: Show icons for overlapping routes; clickable to open chat.
+Anonymous Profiles: Shown as Rider_1234
 
-Anonymous Profiles: Each student gets a UUID-based username (Rider_XXXX); no real names or emails.
-
-Chat: Real-time private chat via WebSocket (Socket.IO) or Firebase.
+Chat Integration: Click student icon → chat window opens
 
 Authentication: Minimal – generate UUID Rider ID, no password required.
 
@@ -34,7 +28,42 @@ Performance: Use clustering & reduce polyline points for smooth map rendering.
 
 
 
+
+
 2. Backend:
+   The backend handles:
+
+Comparing student routes to find overlaps.
+
+Suggesting ride-sharing matches.
+
+Ensuring anonymity of students.
+
+Providing real-time chat for matched students.
+
+Goal: Efficient, scalable, and secure backend without revealing identities.
+
+
+
+#Approach:
+
+
+A. Route Matching
+B. Anonymization Service
+C. Chat Service
+D. API Design
+E. Security & Privacy
+F. Algorithm Details
+G. Scaling & Performance
+
+H. Error Handling & Logging
+
+![Backend Structure](<img width="1053" height="675" alt="image" src="https://github.com/user-attachments/assets/95f9af9c-31a4-40c5-bbd4-9c736b0077f1" />)
+
+
+
+
+
 
 #### System Architecture Diagram
 
