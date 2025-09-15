@@ -58,7 +58,8 @@ G. Scaling & Performance
 
 H. Error Handling & Logging
 
-![Backend Structure](<img width="1053" height="675" alt="image" src="https://github.com/user-attachments/assets/95f9af9c-31a4-40c5-bbd4-9c736b0077f1" />)
+![Backend Structure](https://raw.githubusercontent.com/username/repository/branch/path/to/image.png)
+
 
 
 
