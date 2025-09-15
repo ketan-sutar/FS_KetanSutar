@@ -48,16 +48,15 @@ Goal: Efficient, scalable, and secure backend without revealing identities.
 #Approach:
 
 
-A. Route Matching
-B. Anonymization Service
-C. Chat Service
-D. API Design
-E. Security & Privacy
-F. Algorithm Details
-G. Scaling & Performance
+1- API Design
 
-H. Error Handling & Logging
 
+2- Anonymization Service
+
+
+3- Chat Service
+4- Database Design
+5- Route Matching
 
 
 
